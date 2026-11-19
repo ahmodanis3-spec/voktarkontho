@@ -1,0 +1,9 @@
+/* ভোক্তার কণ্ঠ — বাংলাদেশের নাগরিক অভিযোগ প্ল্যাটফর্ম */
+:root{--vk-green:#087c4b;--vk-red:#e62932;--vk-blue:#1265c7;--vk-ink:#14243a;--vk-bg:#f4f8fc;--vk-card:#fff;--vk-border:#dce7f0}
+body{background:var(--vk-bg);color:var(--vk-ink);font-family:system-ui,"Noto Sans Bengali",sans-serif}
+.vk-header{background:linear-gradient(110deg,#087c4b,#075f3c);color:#fff}
+.vk-primary{background:var(--vk-green);color:#fff;border:0;border-radius:12px}
+.vk-accent{color:var(--vk-red)}
+.vk-card{background:var(--vk-card);border:1px solid var(--vk-border);border-radius:18px;box-shadow:0 8px 24px #15324b12}
+.vk-hero{background:linear-gradient(90deg,#062f24bb,#062f2440),url('../assets/illustrations/citizen-hero.webp') center/cover;border-radius:20px;color:white}
+.vk-icon{width:44px;height:44px;object-fit:contain}
